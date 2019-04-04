@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<launch>
+    <node pkg = "square_test_mobile_robot" name = "square_test_service_server" type = "square_test_service_server" output = "screen"/>
+    <node pkg = "square_test_mobile_robot" name = "square_test_service_client" type = "square_test_service_client" output = "screen"/>
+
+</launch>
